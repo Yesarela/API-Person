@@ -98,4 +98,4 @@ Abre una terminal en el directorio raíz del proyecto y ejecuta los siguientes c
 
 Esto iniciará nuestra API en el puerto predeterminado y se verá el swagger de la siguiente manera:
 
-[Swagger del API](resources/swagger_running.png)
+![Swagger del API](resources/swagger_running.png)
