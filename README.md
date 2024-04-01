@@ -79,6 +79,7 @@ Reemplazamos la contraseña con la contraseña que se configuró durante la inst
 
 Ahora abrimos el archivo Program.cs y verificamos la configuración CORS para permitir el acceso desde el puerto en el que se ejecuta tu aplicación de React. Acá nos aseguramos de que el origen coincida con el puerto en el que se ejecutará la aplicación:
 
+```
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("MyAllowSpecificOrigins",
@@ -89,6 +90,7 @@ builder.Services.AddCors(options =>
                    .AllowAnyMethod();
         });
 });
+```
 
 Ahora ejecutamos desde el Visual Studio, o en su defecto si queremos hacerlo desde la terminal, deberemos ejecutar el siguiente comando:
 
